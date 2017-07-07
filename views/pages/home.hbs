@@ -1,0 +1,12 @@
+<div class="menu">
+{{#each modules}}
+    <div class="module-link" onclick="loadModule('{{.}}')">
+        <img alt="{{.}}" src="/icons/{{.}}.PNG" width="100px" height="100px"/>
+    </div>
+{{/each}}
+</div>
+
+
+
+
+<canvas id="module-canvas" data-module="{{module}}"></canvas>

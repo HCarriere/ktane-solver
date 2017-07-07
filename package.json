@@ -1,0 +1,22 @@
+{
+  "name": "ktnae-solver",
+  "version": "1.0.0",
+  "description": "Helper for Keep Talking and Nobody Explode game.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Keep",
+    "talking",
+    "and",
+    "nobody",
+    "explode"
+  ],
+  "author": "HCarriere",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
