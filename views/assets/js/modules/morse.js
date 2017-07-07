@@ -77,7 +77,7 @@ function getPossibleFrequencies() {
                 }
             }
             if(possible) {
-                possibleFrequency.push(word);
+                possibleFrequency.push(morseFrequency[word]);
             }
         }
     }

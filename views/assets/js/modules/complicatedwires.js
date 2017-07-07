@@ -118,7 +118,7 @@ modules['complicatedwires'] = {
     draw: function() {
         ctx.fillStyle = 'white';
         ctx.font="16px Arial";
-        ctx.fillText("complicated wires", 10,15);
+        ctx.fillText("complicated wires (rbsd)", 10,15);
         
         ctx.font="30px Arial";
         ctx.fillText(currentWireConfiguration, 10,height/2);
